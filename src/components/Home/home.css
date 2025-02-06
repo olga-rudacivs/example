@@ -1,0 +1,16 @@
+.moneyPic{
+height: 80%;
+width: 80px;
+}
+p{
+    font-size: 20px;
+    color: yellow;
+font-weight: bold;
+    -webkit-text-stroke: 1px blue;
+}
+.cardText{
+    color: black;
+    -webkit-text-stroke: 0px;
+    font-weight: normal;
+    font-size: 10px;
+}

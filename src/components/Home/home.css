@@ -1,6 +1,5 @@
-.moneyPic{
-height: 80%;
-width: 80px;
+.btn{
+    margin: 10px;
 }
 p{
     font-size: 20px;
@@ -13,4 +12,14 @@ font-weight: bold;
     -webkit-text-stroke: 0px;
     font-weight: normal;
     font-size: 10px;
+}
+.money{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.money>img{
+    width: 30px;
+    height: 30px;
 }

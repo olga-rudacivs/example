@@ -10,7 +10,7 @@ export default function Routers() {
       <Routes>
         <Route path="/home" element={<Home />} />
 
-        <Route path="/auth" element={<CardR />}>
+        <Route path="/" element={<CardR />}>
           <Route path="/auth/signIn" element={<SignIn />} />{" "}
           {/* путь для первой вкладки */}
           <Route path="/auth/signUp" element={<SignUp />} />{" "}
